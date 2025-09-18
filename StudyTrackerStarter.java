@@ -207,7 +207,7 @@ class StudyTracker
 			return;
 		}
 		
-		String FileName = "MarvellousStudy.csv";
+		String FileName = "MyStudyTracker.csv";
 		
 		// Create new csv file
 		try(FileWriter fwobj = new FileWriter(FileName))
@@ -230,7 +230,7 @@ class StudyTracker
 		catch(Exception eobj)
 		{
 			System.out.println("Exception occured while creating the CSV");
-			System.out.println("Report this to Marvellous Infosystems");
+			System.out.println("Report this to My Project");
 		}
 	}//end of ExportCSV
 	
@@ -425,4 +425,5 @@ class StudyTrackerStarter
 		}while(true);
 		
 	}
+
 }
